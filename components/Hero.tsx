@@ -2,10 +2,12 @@ import Image from "next/image"
 import React from "react"
 import { Button } from "./ui/button"
 import Link from "next/link"
+import Navbar from "./Navbar"
 
 const Hero = () => {
   return (
-    <section className='absolute top-0 left-0 w-full h-screen'>
+    <section className='relative h-[650px]'>
+      <Navbar />
       <Image
         src='/images/Hero-bg.jpg'
         alt=''
@@ -24,7 +26,7 @@ const Hero = () => {
             w sobie piękno, funkcjonalność i zrównoważony rozwój dla każdego
             klienta, któremu służymy.
           </p>
-          <Button asChild className='text-xl h-12 rounded-full cursor-pointer'>
+          <Button asChild className='text-xl h-14 px-8 rounded-full cursor-pointer'>
             <Link href="#contact">Rozpocznij projekt</Link>
           </Button>
         </div>

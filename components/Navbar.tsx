@@ -13,7 +13,7 @@ const Navbar = () => {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className='sticky top-0 z-50 w-full h-16 flex items-center justify-between px-8 max-sm:px-4 bg-transparent'
+      className='sticky top-0 z-50 w-full h-16 flex items-center justify-between px-8 max-sm:px-4 bg-black/10 backdrop-blur-sm  '
     >
       <Logo />
 
