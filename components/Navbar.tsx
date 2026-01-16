@@ -13,13 +13,14 @@ const Navbar = () => {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className='sticky top-0 z-50 w-full h-16 flex items-center justify-between px-8 max-sm:px-4 bg-black/10 backdrop-blur-sm  '
+      className='fixed top-0 z-50 w-full h-16 flex items-center justify-between px-8 max-sm:px-4 bg-background/50 backdrop-blur-sm  '
     >
       <Logo />
 
       <div className='flex items-center gap-8 max-lg:hidden'>
         {[
           { href: "#expertise", label: "Ekspertyza" },
+          { href: "#about", label: "O nas" },
           { href: "#references", label: "Referencje" },
           { href: "#faqs", label: "Pytania" },
           { href: "#contact", label: "Kontakt" },

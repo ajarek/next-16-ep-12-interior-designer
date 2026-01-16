@@ -3,11 +3,11 @@ import React from "react"
 
 const Marquee = () => {
   const marqueeItems = [
-    { id: 1, text: "Homes built for life" },
-    { id: 2, text: "Comfort crafted for living" },
-    { id: 3, text: "Spaces that grow with you" },
-    { id: 4, text: "Designed for lifelong comfort" },
-    { id: 5, text: "Sleek, modern design" },
+    { id: 1, text: "Domy zbudowane na całe życie" },
+    { id: 2, text: "Komfortowe wnętrze do życia" },
+    { id: 3, text: "Przestrzenie, które rozwijają się z Tobą" },
+    { id: 4, text: "Projektowane do życia na zawsze" },
+    { id: 5, text: "Szybkie, modernistyczne projekty" },
   ]
 
   return (
