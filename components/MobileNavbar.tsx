@@ -22,7 +22,7 @@ const MobileNavbar = () => {
       </Button>
 
       {open && (
-        <div className='fixed top-16 left-0 w-full h-[calc(100vh-4rem)] z-40 bg-background/95 backdrop-blur-sm flex flex-col items-center justify-center gap-8 animate-in fade-in zoom-in-95 duration-200'>
+        <div className='fixed top-16 left-0 w-full h-[calc(100vh-4rem)] z-40 bg-background/90 backdrop-blur-sm flex flex-col items-center justify-center gap-8 animate-in fade-in zoom-in-95 duration-200'>
           <nav className='flex flex-col items-center gap-8 text-center'>
             <Link
               href='#expertise'

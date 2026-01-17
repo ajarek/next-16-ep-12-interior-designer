@@ -22,7 +22,7 @@ const About = () => {
           />
         </div>
         <div className='w-full flex flex-col items-center gap-4 p-4'>
-          <h2 className='text-3xl font-bold text-center'>
+          <h2 className='text-3xl font-bold text-left'>
             Przekształcanie przestrzeni za pomocą kreatywnej wizji
           </h2>
           <p>
@@ -33,7 +33,7 @@ const About = () => {
           </p>
         </div>
         <div className='w-full flex flex-col items-center gap-4 p-4'>
-          <h2 className='text-3xl font-bold text-center'>
+          <h2 className='text-3xl font-bold text-left'>
             Podnoszenie standardu przestrzeni dzięki przemyślanemu projektowi
           </h2>
           <p>
@@ -61,7 +61,7 @@ const About = () => {
           />
         </div>
         <div className='w-full flex flex-col items-center gap-4 p-4'>
-          <h2 className='text-3xl font-bold text-center'>
+          <h2 className='text-3xl font-bold text-left'>
             Wymyślanie nowych sposobów kształtowania przyszłości
           </h2>
           <p>
