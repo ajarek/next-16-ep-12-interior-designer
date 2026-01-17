@@ -3,6 +3,7 @@ import Marquee from "@/components/Marquee"
 import About from "@/components/About"
 import Vision from "@/components/Vision"
 import Expertise from "@/components/Expertise"
+import Faqs from "@/components/Faqs"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Vision />
       <Expertise />
+      <Faqs />
     </div>  
   )
 }

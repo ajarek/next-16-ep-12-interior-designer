@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card"
 import Image from "next/image"
 import { Button } from "./ui/button"
+import { MoveRight } from "lucide-react"
 
 const Expertise = () => {
   return (
@@ -33,7 +34,7 @@ const Expertise = () => {
             <Image src='/images/expertise-1.jpg' alt='nowoczesna fasada' width={500} height={500} className='w-full h-auto' />
           </CardContent>
           <CardFooter>
-           <CardAction className='w-full'><Button className='w-full'>Dowiedz się więcej</Button></CardAction>
+           <CardAction className='w-full '><Button className='w-full text-xl cursor-pointer'>Dowiedz się więcej<MoveRight className='ml-2' /></Button></CardAction>
           </CardFooter>
         </Card>
         <Card>
@@ -46,7 +47,7 @@ const Expertise = () => {
             <Image src='/images/expertise-2.jpg' alt='nowoczesna fasada' width={500} height={500} className='w-full h-auto' />
           </CardContent>
           <CardFooter>
-           <CardAction className='w-full'><Button className='w-full'>Dowiedz się więcej</Button></CardAction>
+           <CardAction className='w-full'><Button className='w-full text-xl cursor-pointer'>Dowiedz się więcej<MoveRight className='ml-2' /></Button></CardAction>
           </CardFooter>
         </Card>
         <Card>
@@ -59,7 +60,7 @@ const Expertise = () => {
             <Image src='/images/expertise-3.jpg' alt='nowoczesna fasada' width={500} height={500} className='w-full h-auto' />
           </CardContent>
           <CardFooter className=''>
-           <CardAction className='w-full'><Button className='w-full'>Dowiedz się więcej</Button></CardAction>
+           <CardAction className='w-full'><Button className='w-full text-xl cursor-pointer'>Dowiedz się więcej<MoveRight className='ml-2' /></Button></CardAction>
           </CardFooter>
         </Card>
       </div>
