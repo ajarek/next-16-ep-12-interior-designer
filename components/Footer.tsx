@@ -19,10 +19,26 @@ const Footer = () => {
               środowiska, które odzwierciedlają wartości i wizję klienta.
             </p>
             <div className='flex gap-4'>
-              <SocialLink href='#' icon={<Facebook size={20} />} />
-              <SocialLink href='#' icon={<Dribbble size={20} />} />
-              <SocialLink href='#' icon={<Instagram size={20} />} />
-              <SocialLink href='#' icon={<Twitter size={20} />} />
+              <SocialLink
+                href='#'
+                icon={<Facebook size={20} />}
+                label='Facebook'
+              />
+              <SocialLink
+                href='#'
+                icon={<Dribbble size={20} />}
+                label='Dribbble'
+              />
+              <SocialLink
+                href='#'
+                icon={<Instagram size={20} />}
+                label='Instagram'
+              />
+              <SocialLink
+                href='#'
+                icon={<Twitter size={20} />}
+                label='Twitter'
+              />
             </div>
           </div>
 
@@ -101,13 +117,16 @@ const Footer = () => {
 const SocialLink = ({
   href,
   icon,
+  label,
 }: {
   href: string
   icon: React.ReactNode
+  label: string
 }) => {
   return (
     <a
       href={href}
+      aria-label={label}
       className='w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-black hover:border-primary transition-colors duration-300'
     >
       {icon}

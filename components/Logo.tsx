@@ -12,7 +12,7 @@ const Logo = () => {
         className='max-sm:hidden'
       />
       <h1 className='lg:text-3xl sm:text-2xl text-xl font-semibold'>
-       Arch<span className='text-primary'> &Tekt</span>
+        Arch<span className='text-primary'> &Tekt</span>
       </h1>
     </Link>
   )

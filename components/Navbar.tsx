@@ -7,6 +7,33 @@ import MobileNavbar from "./MobileNavbar"
 import { Phone } from "lucide-react"
 import { motion } from "framer-motion"
 
+const links = [
+  {
+    href: "#expertise",
+    label: "Ekspertyza",
+  },
+  {
+    href: "#about",
+    label: "O nas",
+  },
+  {
+    href: "#references",
+    label: "Referencje",
+  },
+  {
+    href: "#faqs",
+    label: "Pytania",
+  },
+  {
+    href: "#contact",
+    label: "Kontakt",
+  },
+  {
+    href: "tel:502525252",
+    label: "502525252",
+  },
+]
+
 const Navbar = () => {
   return (
     <motion.div
@@ -18,13 +45,7 @@ const Navbar = () => {
       <Logo />
 
       <div className='flex items-center gap-8 max-lg:hidden'>
-        {[
-          { href: "#expertise", label: "Ekspertyza" },
-          { href: "#about", label: "O nas" },
-          { href: "#references", label: "Referencje" },
-          { href: "#faqs", label: "Pytania" },
-          { href: "#contact", label: "Kontakt" },
-        ].map((item, index) => (
+        {links.map((item, index) => (
           <motion.div
             key={item.href}
             initial={{ opacity: 0, y: -20 }}

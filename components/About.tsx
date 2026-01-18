@@ -16,8 +16,8 @@ const About = () => {
           <Image
             src='/images/About-1.jpg'
             alt='about'
-            width={500}
-            height={500}
+            width={728}
+            height={552}
             className='rounded-lg'
           />
         </div>
@@ -46,8 +46,8 @@ const About = () => {
           <Image
             src='/images/About-2.jpg'
             alt='about'
-            width={500}
-            height={500}
+            width={728}
+            height={552}
             className='rounded-lg'
           />
         </div>
@@ -55,8 +55,8 @@ const About = () => {
           <Image
             src='/images/About-3.jpg'
             alt='about'
-            width={500}
-            height={500}
+            width={728}
+            height={552}
             className='rounded-lg'
           />
         </div>

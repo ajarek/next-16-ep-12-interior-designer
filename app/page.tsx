@@ -11,10 +11,7 @@ import Gallery from "@/components/Gallery"
 export default function Home() {
   return (
     <div className=' min-h-screen flex flex-col gap-8 pb-8'>
-      
-        
-       <Hero />
-      
+      <Hero />
       <Marquee />
       <About />
       <Vision />
@@ -23,7 +20,6 @@ export default function Home() {
       <Faqs />
       <Contact />
       <Gallery />
-      
-    </div>  
+    </div>
   )
 }

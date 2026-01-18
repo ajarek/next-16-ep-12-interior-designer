@@ -9,19 +9,16 @@ import { toast } from "sonner"
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const formData = new FormData(e.currentTarget)
-    const name = formData.get("name")
-    const email = formData.get("email")
-    const subject = formData.get("subject")
-    const message = formData.get("message")
-    console.log({ name, email, subject, message })
     toast.success("Wiadomość wysłana!", {
       description: "Dziękujemy za kontakt. Odezwiemy się wkrótce.",
     })
     e.currentTarget.reset()
   }
   return (
-    <section id="contact" className='relative w-full min-h-[800px] flex items-center justify-center lg:justify-end px-4  lg:px-24 '>
+    <section
+      id='contact'
+      className='relative w-full min-h-[800px] flex items-center justify-center lg:justify-end px-4  lg:px-24 '
+    >
       <Image
         src='/Images/contact.bg.jpg'
         alt='Contact Background'
@@ -29,8 +26,6 @@ const Contact = () => {
         className='object-cover -z-10'
         priority
       />
-      {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-black/20 -z-10" /> */}
 
       <Card className='relative z-10 w-full max-w-lg bg-white text-black border-none shadow-2xl p-2'>
         <CardHeader className='pb-2'>
