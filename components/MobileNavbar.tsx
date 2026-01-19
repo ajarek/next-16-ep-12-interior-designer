@@ -1,6 +1,6 @@
 "use client"
 
-import { Menu, X } from "lucide-react"
+import { Menu, Phone, X } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
 import { Button } from "./ui/button"
@@ -28,7 +28,11 @@ const links = [
   },
   {
     href: "tel:502525252",
-    label: "502525252",
+    label: (
+      <div className='flex items-center gap-2'>
+        <Phone className='w-5 h-5' /> 502525252
+      </div>
+    ),
   },
 ]
 
@@ -55,6 +59,7 @@ const MobileNavbar = () => {
               <Link
                 key={index}
                 href={link.href}
+                onClick={() => setOpen(false)}
                 className='text-xl hover:text-primary focus:text-primary focus:underline focus:underline-offset-8'
               >
                 {link.label}

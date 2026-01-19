@@ -30,7 +30,11 @@ const links = [
   },
   {
     href: "tel:502525252",
-    label: "502525252",
+    label: (
+      <div className='flex items-center gap-2'>
+        <Phone className='w-5 h-5' /> 502525252
+      </div>
+    ),
   },
 ]
 
@@ -60,20 +64,6 @@ const Navbar = () => {
             </Link>
           </motion.div>
         ))}
-
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-        >
-          <Link
-            href='tel:502525252'
-            className='flex items-center gap-2 text-xl hover:text-primary transition-colors focus:text-primary focus:underline focus:underline-offset-8'
-          >
-            <Phone className='w-5 h-5' />
-            <span>502525252</span>
-          </Link>
-        </motion.div>
       </div>
 
       <div className='flex items-center gap-8'>
