@@ -20,7 +20,7 @@ const Contact = () => {
       className='relative w-full min-h-[800px] flex items-center justify-center lg:justify-end px-4  lg:px-24 '
     >
       <Image
-        src='/Images/contact.bg.jpg'
+        src='/images/contact.bg.jpg'
         alt='Contact Background'
         fill
         className='object-cover -z-10'
