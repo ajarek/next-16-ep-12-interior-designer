@@ -14,7 +14,7 @@ const About = () => {
         <div className='absolute hidden md:block left-1/2 top-0 h-full w-px bg-gray-300 -translate-x-1/2' />
         <div className=''>
           <Image
-            src='/images/About-1.jpg'
+            src='/images/about-1.jpg'
             alt='about'
             width={728}
             height={552}
@@ -44,7 +44,7 @@ const About = () => {
         </div>
         <div className='w-full flex flex-col items-center gap-4 p-4'>
           <Image
-            src='/images/About-2.jpg'
+            src='/images/about-2.jpg'
             alt='about'
             width={728}
             height={552}
@@ -53,7 +53,7 @@ const About = () => {
         </div>
         <div>
           <Image
-            src='/images/About-3.jpg'
+            src='/images/about-3.jpg'
             alt='about'
             width={728}
             height={552}

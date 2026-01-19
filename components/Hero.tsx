@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='relative min-h-screen  md:mb-0 mb-8'>
       <Image
-        src='/images/Hero-bg.jpg'
+        src='/images/hero-bg.jpg'
         alt=''
         width={500}
         height={500}
